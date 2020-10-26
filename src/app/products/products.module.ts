@@ -11,12 +11,17 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 import { ViewAllProductsByDateComponent } from './view-all-products-by-date/view-all-products-by-date.component';
 import { ViewAllProductsByCategoryComponent } from './view-all-products-by-category/view-all-products-by-category.component';
 
-
 @NgModule({
-  declarations: [ProductsComponent, CreateProductComponent, ViewProductComponent, ViewAllProductsComponent, UpdateProductComponent, DeleteProductComponent, ViewAllProductsByDateComponent, ViewAllProductsByCategoryComponent],
-  imports: [
-    CommonModule,
-    ProductsRoutingModule
-  ]
+  declarations: [
+    ProductsComponent,
+    CreateProductComponent,
+    ViewProductComponent,
+    ViewAllProductsComponent,
+    UpdateProductComponent,
+    DeleteProductComponent,
+    ViewAllProductsByDateComponent,
+    ViewAllProductsByCategoryComponent,
+  ],
+  imports: [CommonModule, ProductsRoutingModule],
 })
-export class ProductsModule { }
+export class ProductsModule {}
